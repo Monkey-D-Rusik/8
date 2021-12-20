@@ -12,17 +12,23 @@
     <button id="showbutton"> Отправить форму </button>
     <div id="wrapper">
             <div class="modalcontent">
-            <span id="close"> [х] </span>
+            
             <form id="contact" name="contact" method="POST" accept-charset="UTF-8">
+                <p>:</p>
+                <p>:</p>
                 <label>
                     Представтесь: <br/>
                     <input id="field1" type="text" name="name" class="fields"/>
                 </label> 
-                <br/>  
+                <br/> 
+                <p>:</p>
+                <p>:</p>
                 <label>
         Ваш e-mail:<br />
 <input name="field-email" type="email" placeholder="Ваша почта:" class="fields"/>
       </label><br />
+                <p>:</p>
+                <p>:</p>
                 <label>
                     О вас:<br/>
                     <textarea name="fieldmessage" class="fields"></textarea>
@@ -35,6 +41,7 @@
                 <br/>
                 <input type="submit" name="subbutton" id="submitbutton" disabled/> 
                 </form>
+                <span id="close"> [х] </span>
             </div>
         </div>
     </body>
